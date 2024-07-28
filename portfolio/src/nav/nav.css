@@ -1,7 +1,8 @@
 .nav-bar {
-    background-color: gray;
+    background-color: var(--cor-secundaria);
 }
 
 .nav-bar button {
-    background-color: aqua;
+    background-color: var(--cor-primaria-clara);
+    color: var(--cor-fontes);
 }

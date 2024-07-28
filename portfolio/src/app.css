@@ -5,8 +5,8 @@
 }
 
 :root {
-    --cor-primaria: ;
-    --cor-primaria-clara: ;
-    --cor-secundaria: ;
-    --cor-fontes: ;
+    --cor-primaria: rgb(19, 19, 19) ;
+    --cor-primaria-clara: rgb(59, 59, 59);
+    --cor-secundaria: rgb(34, 34, 34) ;
+    --cor-fontes: azure;
 }
