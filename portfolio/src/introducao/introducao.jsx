@@ -3,7 +3,10 @@ import "./introducao.css"
 function Introducao() {
     return(
         <header id="inicio">
-            <div></div>
+            <div>
+                <h1>Fernando Marques</h1>
+                <img id="eu" />
+            </div>
         </header>
     )
 }
