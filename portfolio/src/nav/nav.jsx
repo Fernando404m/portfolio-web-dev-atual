@@ -18,15 +18,24 @@ function Nav() {
         }
     }
 
+    function scroll(position) {
+        let goTo = document.querySelector(`#${position}`)
+        scrollTo({
+            top: goTo.offsetTop,
+            behavior: "smooth"
+        })
+        mostrarNav()
+    }
+
     return(
         <nav className="nav-bar">
             <h1></h1>
             <button className="material-symbols-outlined" onClick={mostrarNav}>menu</button>
             <div className="nav-bar-btn-container nav-oculta">
-                <button>Inicio</button>
-                <button>Sobre mim</button>
-                <button>Habilidades</button>
-                <button>Projetos</button>
+                <button onClick={() => {scroll("inicio")}}>Inicio</button>
+                <button onClick={() => {scroll("sobremim")}}>Sobre mim</button>
+                <button onClick={() => {scroll("habilidades")}}>Habilidades</button>
+                <button onClick={() => {scroll("projetos")}}>Projetos</button>
             </div>
         </nav>
     )
