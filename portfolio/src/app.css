@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Playfair";
+    src: url("./assets/fontes/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,5 +15,6 @@
     --cor-primaria: rgb(19, 19, 19) ;
     --cor-primaria-clara: rgb(59, 59, 59);
     --cor-secundaria: rgb(34, 34, 34) ;
-    --cor-fontes: azure;
+    --cor-fontes-destaque: azure;
+    --cor-fontes: rgb(204, 204, 204);
 }
