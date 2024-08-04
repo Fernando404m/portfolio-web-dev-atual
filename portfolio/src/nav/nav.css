@@ -3,6 +3,7 @@
     height: 40px;
     position: sticky;
     top: 0px;
+    z-index: 999;
 }
 .material-symbols-outlined {
     font-size: 30px;
@@ -14,7 +15,7 @@
     top: 5px;
 }
 .nav-bar-btn-container {
-    background-color: hsla(200, 100%, 90%, 0.4);
+    background-color: var(--cor-transparente);
     position: fixed;
     top: 60px;
     right: -120px;

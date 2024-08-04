@@ -1,9 +1,9 @@
-import Sobremin from "./sobremin/sobremin"
+import Sobremim from "./sobremim/sobremim"
 
 function Main() {
     return(
         <main>
-            <Sobremin />
+            <Sobremim />
         </main>
     )
 }

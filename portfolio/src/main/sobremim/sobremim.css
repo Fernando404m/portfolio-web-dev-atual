@@ -1,0 +1,48 @@
+#container-sobremim {
+    position: relative;
+    padding: 20px 0;
+    height: 1000px;
+    background-color: var(--cor-primaria);
+}
+#sobremim-resumo {
+    display: none;
+    position: fixed;
+    margin: auto;
+    border-radius: 12px;
+    border: 1px solid azure;
+    background-color: var(--cor-transparente);
+    height: 300px;
+    width: 80%;
+    opacity: 0%;
+    left: 10%;
+    top: 20%;
+}
+
+.animacao-sobremim-resumo {
+    animation: animacao-sobremim .5s forwards ease;
+}
+.animacao-sobremim-resumo-reverso {
+    animation: animacao-sobremim-reverso .2s forwards ease;
+}
+
+@keyframes animacao-sobremim {
+    0% {
+        opacity: 0%;
+        left: 100%;
+    }
+    100% {
+        opacity: 100%;
+        left: 10%;
+    }
+}
+
+@keyframes animacao-sobremim-reverso {
+    0% {
+        opacity: 100%;
+        left: 10%;
+    }
+    100% {
+        opacity: 0%;
+        left: 100%;
+    }
+}
