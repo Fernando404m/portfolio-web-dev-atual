@@ -4,7 +4,7 @@
     height: 800px;
     background-color: var(--cor-primaria);
 }
-#sobremim-resumo {
+#sobremim {
     display: none;
     position: fixed;
     margin: auto;
@@ -18,12 +18,12 @@
     left: 10%;
     top: 20%;
 }
-#sobremim-resumo h1 {
+#sobremim h1 {
     font: 700 1.8rem "playfair", serif;
     color: var(--cor-fontes-destaque);
     margin-bottom: 10px;
 }
-#sobremim-resumo p {
+#sobremim p {
     font: 500 1rem "verdana", sans-serif;
     color: var(--cor-fontes);
     margin-bottom: 5px;
@@ -56,10 +56,10 @@
     margin: 15px 0;
 }
 
-.animacao-sobremim-resumo {
+.animacao-sobremim {
     animation: animacao-sobremim .5s forwards ease;
 }
-.animacao-sobremim-resumo-reverso {
+.animacao-sobremim-reverso {
     animation: animacao-sobremim-reverso .2s forwards ease;
 }
 

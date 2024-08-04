@@ -33,7 +33,7 @@ function Nav() {
             <button className="material-symbols-outlined" onClick={mostrarNav}>menu</button>
             <div className="nav-bar-btn-container nav-oculta">
                 <button onClick={() => {scroll("inicio")}}>Inicio</button>
-                <button onClick={() => {scroll("sobremim")}}>Sobre mim</button>
+                <button onClick={() => {scroll("container-sobremim")}}>Sobre mim</button>
                 <button onClick={() => {scroll("habilidades")}}>Habilidades</button>
                 <button onClick={() => {scroll("projetos")}}>Projetos</button>
             </div>

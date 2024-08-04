@@ -6,13 +6,13 @@ function sobremim() {
     window.addEventListener("scroll", () => {
         var posicao = document.getElementById("container-sobremim").getBoundingClientRect().top
         
-        if (0 > posicao - (window.innerHeight/100*15)) {
-            document.getElementById("sobremim-resumo").classList.add("animacao-sobremim-resumo")
-            document.getElementById("sobremim-resumo").classList.remove("animacao-sobremim-resumo-reverso")
-            document.getElementById("sobremim-resumo").style.display = "block"
-        } else {
-            document.getElementById("sobremim-resumo").classList.remove("animacao-sobremim-resumo")
-            document.getElementById("sobremim-resumo").classList.add("animacao-sobremim-resumo-reverso")
+        if (0 > posicao - (window.innerHeight/100*15) && -400 < posicao - (window.innerHeight/100*15)) {
+            document.getElementById("sobremim").classList.add("animacao-sobremim")
+            document.getElementById("sobremim").classList.remove("animacao-sobremim-reverso")
+            document.getElementById("sobremim").style.display = "block"
+        }else {
+            document.getElementById("sobremim").classList.remove("animacao-sobremim")
+            document.getElementById("sobremim").classList.add("animacao-sobremim-reverso")
         }
     })
 
@@ -46,7 +46,7 @@ function sobremim() {
                     <div>18 fiz esse portfolio</div>
                 </div>
             </div>
-            <div id="sobremim-resumo">
+            <div id="sobremim">
                 <h1>Sobre mim</h1>
                 <p>Meu nome é Fernando marques, sou um dev FullStack tentando iniciar minha carreira.</p>
                 <p>No momento estou tentando me desenvolver no mundo tecnologico pois sempre tive um fascinio sobre ele.</p>
