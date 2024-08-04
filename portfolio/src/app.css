@@ -17,6 +17,7 @@
     --cor-secundaria: rgb(34, 34, 34) ;
     --cor-fontes-destaque: azure;
     --cor-fontes: rgb(204, 204, 204);
+    --cor-fontes-oposta: rgb(15, 0, 0);
     --cor-sub-texto: rgb(165, 210, 220);
     --cor-transparente: hsla(200, 100%, 90%, 0.4);
 }
