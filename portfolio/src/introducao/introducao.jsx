@@ -35,7 +35,7 @@ function Introducao() {
 
     return(
         <header id="inicio">
-          <div id="luizinha"></div>
+          <div className="led"></div>
           <div>
               <img id="eu" />
               <div id="container">

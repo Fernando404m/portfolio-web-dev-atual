@@ -1,4 +1,4 @@
-#luizinha {
+.led {
     height: 5px;
     margin-bottom: 40px;
     background: var(--cor-sub-texto);

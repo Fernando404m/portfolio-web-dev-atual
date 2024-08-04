@@ -1,5 +1,5 @@
 import "./app.css"
-import Introducao from "./introducao/introducao"
+import Introducao from "./introducao/introducao.jsx"
 import Nav from "./nav/nav"
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <Introducao />
       <Nav />
-      <div style={{backgroundColor: "brown", height: "2000px"}}></div>
+      <Introducao />
     </>
   )
 }
