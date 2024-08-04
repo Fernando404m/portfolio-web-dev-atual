@@ -1,6 +1,7 @@
 import "./app.css"
 import Introducao from "./introducao/introducao.jsx"
 import Nav from "./nav/nav"
+import Main from "./main/main.jsx"
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
     <>
       <Introducao />
       <Nav />
-      <Introducao />
+      <Main />
     </>
   )
 }

@@ -38,7 +38,7 @@ function Introducao() {
           <div className="led"></div>
           <div>
               <img id="eu" />
-              <div id="container">
+              <div id="container-inicio-titulo">
                   <div id="linha"></div>
                   <h1 id="nome" className="titulo">{nome}</h1>
                   <h2 id="funcao" >{texto}</h2>
