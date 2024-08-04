@@ -13,7 +13,7 @@ function Introducao() {
         if (index.current < fullname.length) {
           setnome(p => p + fullname.charAt(index.current));
           index.current++;
-          setTimeout(escreverNome, 150);
+          setTimeout(escreverNome, 80);
         }else {
             index.current = 0
             escrever()
@@ -21,30 +21,34 @@ function Introducao() {
       }
 
       function escrever() {
-        if (index.current === 1) {
-          document.getElementById("linha").classList.add("animacao-titulo")
-        }
         if (index.current < fullText.length) {
           setTexto(p => p + fullText.charAt(index.current));
           index.current++;
           setTimeout(escrever, 50);
+        }else {
+          document.querySelector("#inicio #contatos").classList.add("animacao-contatos")
         }
-        
       }
-
-      escreverNome()
+      document.getElementById("linha").classList.add("animacao-titulo")
+      setTimeout(escreverNome, 800)
   }, [])
 
     return(
         <header id="inicio">
-            <div>
-                <img id="eu" />
-                <div id="container">
-                    <div id="linha"></div>
-                    <h1 id="nome" className="titulo">{nome}</h1>
-                    <h2 id="funcao" >{texto}</h2>
-                </div>
-            </div>
+          <div id="luizinha"></div>
+          <div>
+              <img id="eu" />
+              <div id="container">
+                  <div id="linha"></div>
+                  <h1 id="nome" className="titulo">{nome}</h1>
+                  <h2 id="funcao" >{texto}</h2>
+              </div>
+          </div>
+          <div id="contatos">
+            <img id="github-icon" className="contatos-icons" />
+            <img id="linkedin-icon" className="contatos-icons" />
+            <img id="instagram-icon" className="contatos-icons" />
+          </div>
         </header>
     )
 }
