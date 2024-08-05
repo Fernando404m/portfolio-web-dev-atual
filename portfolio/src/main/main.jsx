@@ -5,6 +5,7 @@ function Main() {
     return(
         <main>
             <Sobremim />
+            <Habilidades />
         </main>
     )
 }

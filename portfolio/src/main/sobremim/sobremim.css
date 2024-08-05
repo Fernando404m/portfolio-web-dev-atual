@@ -2,7 +2,7 @@
     position: relative;
     padding: 20px 0;
     height: 800px;
-    background-color: var(--cor-primaria);
+    background-image: radial-gradient(circle, var(--cor-primaria-clara), var(--cor-primaria));
 }
 #sobremim {
     display: none;

@@ -2,7 +2,9 @@ import "./habilidades.css"
 
 function Habilidades() {
     return(
-        <div id="habilidades"></div>
+        <div id="habilidades">
+            <div></div>
+        </div>
     )
 }
 

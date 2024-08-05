@@ -4,6 +4,7 @@
     position: sticky;
     top: 0px;
     z-index: 999;
+    border-bottom: 1px solid azure;
 }
 .material-symbols-outlined {
     font-size: 30px;
