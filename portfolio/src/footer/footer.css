@@ -1,0 +1,20 @@
+footer {
+    background-color: rgb(35, 15, 15);
+    border: 2px solid rgb(109, 16, 16);
+    height: 100px;
+    width: 100%;
+    color: var(--cor-fontes-destaque);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+footer > div {
+    height: 25%;
+    width: 80%;
+    margin: auto;
+    background-color: var(--cor-transparente);
+    border: 1px solid var(--cor-fontes-oposta);
+    border-radius: 12px;
+    font: 100 .9rem playfair, serif;
+}

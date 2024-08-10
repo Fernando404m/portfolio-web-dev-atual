@@ -67,6 +67,9 @@
     z-index: 8;
     border: 1px solid black;
 }
+#projeto-0 {
+    z-index: 10;
+}
 
 .trocar-projeto {
     animation: animacao-trocar-projeto 1s forwards ease;
