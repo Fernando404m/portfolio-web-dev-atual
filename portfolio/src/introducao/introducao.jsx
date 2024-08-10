@@ -45,9 +45,9 @@ function Introducao() {
               </div>
           </div>
           <div id="contatos">
-            <img id="github-icon" className="contatos-icons" />
-            <img id="linkedin-icon" className="contatos-icons" />
-            <img id="instagram-icon" className="contatos-icons" />
+            <a id="github-icon" className="contatos-icons" href="https://github.com/Fernando404m" target="_blank"/>
+            <a id="linkedin-icon" className="contatos-icons" href="https://www.linkedin.com/in/fernando-marques-5438542a7/" target="_blank"/>
+            <a id="instagram-icon" className="contatos-icons" href="" target="_blank"/>
           </div>
         </header>
     )

@@ -14,6 +14,10 @@ function sobremim() {
             document.getElementById("sobremim").classList.remove("animacao-sobremim")
             document.getElementById("sobremim").classList.add("animacao-sobremim-reverso")
         }
+        if(100 < posicao - (window.innerHeight/100*15) || -600 > posicao - (window.innerHeight/100*15)) {
+            document.getElementById("sobremim").style.display = "none"
+        }
+        console.log(posicao - (window.innerHeight/100*15))
     })
 
     function mostrarMais() {

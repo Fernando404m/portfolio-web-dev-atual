@@ -3,9 +3,9 @@ import "./footer.css"
 function Footer() {
     return(
         <footer id="footer">
-            <div id="email">email: fernando404m@gmail.com</div>
-            <div id="zap">numero: 19 999999999</div>
-            <div id="caixa-mensagem">voltar para o inicio</div>
+            <a href="mailto:fernando404m@gmail.com">email: fernando404m@gmail.com</a>
+            <a href="https://wa.me/5519971466370" target="_blank">whatsapp: 55 19 971466370</a>
+            <a href="https://github.com/Fernando404m" target="_blank">github: Fernando404m</a>
         </footer>
     )
 }

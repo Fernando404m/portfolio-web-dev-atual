@@ -3,13 +3,12 @@ footer {
     border: 2px solid rgb(109, 16, 16);
     height: 100px;
     width: 100%;
-    color: var(--cor-fontes-destaque);
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     text-align: center;
 }
-footer > div {
+footer > * {
     height: 25%;
     width: 80%;
     margin: auto;
@@ -17,4 +16,5 @@ footer > div {
     border: 1px solid var(--cor-fontes-oposta);
     border-radius: 12px;
     font: 100 .9rem playfair, serif;
+    color: var(--cor-fontes-destaque);
 }
