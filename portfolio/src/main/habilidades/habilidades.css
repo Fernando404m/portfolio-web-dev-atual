@@ -1,6 +1,7 @@
 #habilidades {
     border-top: 1px solid var(--cor-primaria-clara);
-    height: 950px;
+    height: 900px;
+    padding: 25px 0;
     background-image:linear-gradient(315deg, var(--cor-primaria-clara), 20%, var(--cor-primaria));
 }
 #habilidades > h1 {
@@ -33,7 +34,7 @@
     color: var(--cor-fontes-destaque);
     font: 600 1.3rem "playfair", serif;
 }
-#display_hab {
+#display-hab {
     width: 100%;
     background-color: var(--cor-transparente);
     padding: 12px;
@@ -47,13 +48,29 @@
 #habilidades-container #ingles img {
     width: 40%;
 }
-
-.display_hab_text {
+.display-hab-text {
     display: none;
 }
-.display_hab_text > h1 {
+.display-hab-text > h1 {
     margin-bottom: 10px;
     font-weight: 700;
     text-align: center;
 }
-#selecione
+#selecione-hab {
+    text-align: center;
+}
+
+.animacao-hab {
+    animation: animacao-habilidades forwards 1s ease;
+}
+
+@keyframes animacao-habilidades {
+    0% {
+        background-color: rgb(32, 35, 47);
+        color: rgb(32, 35, 47);
+    }
+    100% {
+        background-color: var(--cor-transparente);;
+        color: var(--cor-fontes-destaque);
+    }
+}
