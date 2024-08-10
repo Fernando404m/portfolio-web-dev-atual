@@ -15,8 +15,8 @@ function Habilidades() {
         
     }
     return(
-        <div id="habilidades">
-            <h1>Habilidades</h1>
+        <section id="habilidades">
+            <h1 className="titulo-section">Habilidades</h1>
             <div id="habilidades-container">
                 <button className="hab" id="html" onClick={() => mostrar("html")}>
                     <div>
@@ -50,23 +50,23 @@ function Habilidades() {
                 </button>
 
                 <div id="display-hab">
-                    <div class="display-hab-text" id="html-on">
+                    <div className="display-hab-text" id="html-on">
                         <h1>HTML5</h1>
                         <p>O <strong>HTML</strong> (HyperText Markup Language) é a linguagem de marcação mais usada na criação de sites, devido à sua semântica poderosa que auxilia o sistema de busca do Google. <br/>o estudo sobre sua semântica é muito impotante, para facilitar o design de aplicações web.</p>
                     </div>
-                    <div class="display-hab-text" id="css-on">
+                    <div className="display-hab-text" id="css-on">
                         <h1>CSS</h1>
                         <p>O <strong>CSS</strong> (Cascading Style Sheets) é o que define os visuais do <strong onClick={() => mostrar('html')}>HTML</strong>, em outras palavras, é o componente essencial para a criação de designs dos elementos <strong onClick={() => mostrar('html')}>HTML</strong>. <br/>Eu particularmente sempre busco manter um site organizado, responsivo e adaptável ao público.</p>
                     </div>
-                    <div class="display-hab-text" id="js-on">
+                    <div className="display-hab-text" id="js-on">
                         <h1>JavaScript</h1>
                         <p><strong>JavaScript</strong> é uma linguagem de programação que define funções a serem executadas em um site. Juntamente com o <strong onClick={() => mostrar('css')}>CSS</strong> e <strong onClick={() => mostrar('html')}>HTML</strong>, o JavaScript é uma das três principais tecnologias da internet.</p>
                     </div>
-                    <div class="display-hab-text" id="react-on">
+                    <div className="display-hab-text" id="react-on">
                         <h1>React</h1>
                         <p>O React é uma biblioteca do <strong onClick={() => mostrar("js")}>JavaScript</strong>, que comumente é utilizada para facilitar a criação de sites, devido a sua capacidade de criar componetes reutilizaveis (que são blocos de codigo isolados).</p>
                     </div>
-                    <div class="display-hab-text" id="ingles-on">
+                    <div className="display-hab-text" id="ingles-on">
                         <h1>Inglês</h1>
                         <p>Eu possuo um nível de <strong>inglês medio-avançado</strong>, suficiente para manter uma conversa, mas admito não ser totalmente fluente na língua.</p>
                     </div>
@@ -75,7 +75,7 @@ function Habilidades() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

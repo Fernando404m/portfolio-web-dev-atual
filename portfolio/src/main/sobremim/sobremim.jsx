@@ -26,7 +26,7 @@ function sobremim() {
     }
 
     return(
-        <div id="container-sobremim">
+        <section id="container-sobremim">
             <div id="mais-sobremim">
                 <button id="close" className="material-symbols-outlined" onClick={mostrarMais}>close</button>
                 <h1>Linha do tempo</h1>
@@ -52,7 +52,7 @@ function sobremim() {
                 <p>No momento estou tentando me desenvolver no mundo tecnologico pois sempre tive um fascinio sobre ele.</p>
                 <button id="mais-sobremim-btn" onClick={mostrarMais}>mais</button>
             </div>
-        </div>
+        </section>
     )
 }
 

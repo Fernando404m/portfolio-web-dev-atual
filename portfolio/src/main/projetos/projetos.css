@@ -1,0 +1,79 @@
+#projetos {
+    height: 600px;
+    background-image: radial-gradient(circle, var(--cor-primaria-clara), var(--cor-primaria));
+    border-top: 1px solid var(--cor-primaria-clara);
+}
+#container-projetos {
+    background-color: brown;
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+.projeto {
+    background-color: azure;
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+.projeto > h1 {
+    text-align: center;
+    margin: 8px 0;
+    color: black;
+    text-decoration: underline;
+}
+.projeto > img {
+    height: 50%;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+.projeto > p {
+    position: absolute;
+    padding: 10px;
+    bottom: 2px;
+}
+#left-arrow {
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    overflow-x: hidden;
+}
+#right-arrow {
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+    overflow-x: hidden;
+}
+#papelada {
+    background-color: azure;
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 8;
+}
+
+.trocar-projeto {
+    animation: animacao-trocar-projeto 1s forwards ease;
+}
+
+@keyframes animacao-trocar-projeto {
+    50% {
+        transform: translate(-155%, -45%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
