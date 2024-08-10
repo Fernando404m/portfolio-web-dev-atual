@@ -7,9 +7,9 @@ function Projetos() {
     let listaProjetos = [
         {
             id: 0,
-            titulo: "normalmente algo",
-            img: ["2", "3"],
-            descricao: "4",
+            titulo: "ainda nao tenho um bom",
+            img: ["2", "logicamente nao tenho uma img tambem"],
+            descricao: "e sobre isso e ta tudo bem",
         },
         {
             id: 1,

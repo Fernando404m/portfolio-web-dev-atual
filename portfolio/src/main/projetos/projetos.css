@@ -1,13 +1,15 @@
 #projetos {
-    height: 600px;
+    height: 650px;
     background-image: radial-gradient(circle, var(--cor-primaria-clara), var(--cor-primaria));
     border-top: 1px solid var(--cor-primaria-clara);
+    padding: 25px 0;
 }
 #container-projetos {
-    background-color: brown;
+    background-color: rgba(41, 12, 12, 0.603);
     width: 100%;
     height: 60%;
     position: relative;
+    border: 2px solid rgb(109, 16, 16);
 }
 .projeto {
     background-color: azure;
@@ -63,6 +65,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 8;
+    border: 1px solid black;
 }
 
 .trocar-projeto {
