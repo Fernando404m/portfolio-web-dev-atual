@@ -1,3 +1,9 @@
+import cssImage from './../../assets/img/css.png';
+import jsImage from './../../assets/img/javascript.png';
+import htmlImage from './../../assets/img/html.png';
+import reactImage from './../../assets/img/react.png';
+import usaImage from './../../assets/img/usa.png';
+
 import "./habilidades.css"
 
 function Habilidades() {
@@ -20,31 +26,31 @@ function Habilidades() {
             <div id="habilidades-container">
                 <button className="hab" id="html" onClick={() => mostrar("html")}>
                     <div>
-                        <img src="src\assets\img\html.png" alt="HTML logo" />
+                        <img src={htmlImage} alt="HTML logo" />
                         <h2>HTML</h2>
                     </div>
                 </button>
                 <button className="hab" id="js" onClick={() => mostrar("js")}>
                     <div>
-                        <img src="src\assets\img\javascript.png" alt="JavaScript logo" />
+                        <img src={jsImage} alt="JavaScript logo" />
                         <h2>JavaScript</h2>
                     </div>
                 </button>
                 <button className="hab" id="css" onClick={() => mostrar("css")}>
                     <div>
-                        <img src="src\assets\img\css.png" alt="CSS logo" />
+                        <img src={cssImage} alt="CSS logo" />
                         <h2>CSS</h2>
                     </div>
                 </button>
                 <button className="hab" id="react" onClick={() => mostrar("react")}>
                     <div>
-                        <img src="src\assets\img\react.png" alt="react logo" />
+                        <img src={reactImage} alt="react logo" />
                         <h2>React</h2>
                     </div>
                 </button>
                 <button className="hab" id="ingles" onClick={() => mostrar("ingles")}>
                     <div>
-                        <img src="src\assets\img\usa.png" alt="bandeira dos eua" />
+                        <img src={usaImage} alt="bandeira dos eua" />
                         <h2>Ingles</h2>
                     </div>
                 </button>

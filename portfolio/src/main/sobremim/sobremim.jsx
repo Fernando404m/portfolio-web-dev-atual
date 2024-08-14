@@ -17,7 +17,6 @@ function sobremim() {
         if(100 < posicao - (window.innerHeight/100*15) || -600 > posicao - (window.innerHeight/100*15)) {
             document.getElementById("sobremim").style.display = "none"
         }
-        console.log(posicao - (window.innerHeight/100*15))
     })
 
     function mostrarMais() {
