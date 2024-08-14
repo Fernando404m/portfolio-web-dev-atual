@@ -40,18 +40,19 @@ function Introducao() {
         <header id="inicio">
           <div className="led"></div>
           <div id="container-inicio">
-              <img id="eu" />
-              <div id="container-inicio-titulo">
-                  <div id="linha"></div>
-                  <h1 id="nome" className="titulo">{nome}</h1>
-                  <h2 id="funcao" >{texto}</h2>
-              </div>
+            <img id="eu" />
+            <div id="container-inicio-titulo">
+                <div id="linha"></div>
+                <h1 id="nome" className="titulo">{nome}</h1>
+                <h2 id="funcao" >{texto}</h2>
+            </div>
+            <div id="contatos">
+              <a id="github-icon" className="contatos-icons" href="https://github.com/Fernando404m" target="_blank"/>
+              <a id="linkedin-icon" className="contatos-icons" href="https://www.linkedin.com/in/fernando-marques-5438542a7/" target="_blank"/>
+              <a id="instagram-icon" className="contatos-icons" href="" target="_blank"/>
+            </div>
           </div>
-          <div id="contatos">
-            <a id="github-icon" className="contatos-icons" href="https://github.com/Fernando404m" target="_blank"/>
-            <a id="linkedin-icon" className="contatos-icons" href="https://www.linkedin.com/in/fernando-marques-5438542a7/" target="_blank"/>
-            <a id="instagram-icon" className="contatos-icons" href="" target="_blank"/>
-          </div>
+          
         </header>
     )
 }
