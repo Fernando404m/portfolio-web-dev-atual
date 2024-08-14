@@ -69,3 +69,12 @@
         color: var(--cor-fontes-destaque);
     }
 }
+
+@media screen and (orientation: landscape) {
+    #habilidades {
+        height: 700px;
+    }
+    #display-hab {
+        width: 80%;
+    }
+}

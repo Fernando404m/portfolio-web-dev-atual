@@ -84,3 +84,9 @@
         left: 100%;
     }
 }
+
+@media screen  and (orientation: landscape){
+    #sobremim {
+        height: 220px;
+    }
+}
