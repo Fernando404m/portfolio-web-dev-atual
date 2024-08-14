@@ -39,7 +39,7 @@ function Introducao() {
     return(
         <header id="inicio">
           <div className="led"></div>
-          <div>
+          <div id="container-inicio">
               <img id="eu" />
               <div id="container-inicio-titulo">
                   <div id="linha"></div>
