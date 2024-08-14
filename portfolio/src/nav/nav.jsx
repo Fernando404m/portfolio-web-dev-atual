@@ -29,7 +29,7 @@ function Nav() {
 
     return(
         <nav className="nav-bar">
-            <h1></h1>
+            <h1>F.M. Dev</h1>
             <button className="material-symbols-outlined" onClick={mostrarNav}>menu</button>
             <div className="nav-bar-btn-container nav-oculta">
                 <button onClick={() => {scroll("inicio")}}>Inicio</button>

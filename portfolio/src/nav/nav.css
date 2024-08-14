@@ -6,6 +6,14 @@
     z-index: 999;
     border-bottom: 1px solid azure;
 }
+.nav-bar > h1 {
+    width: 50%;
+    color: var(--cor-fontes-destaque);
+    position: relative;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
 .material-symbols-outlined {
     font-size: 30px;
     background-color: transparent;
