@@ -40,7 +40,7 @@
     position: absolute;
     border-radius: 5px;
     display: none;
-    left: 8%;
+    left: 3%;
 }
 #inicio #contatos {
     width: 100%;
@@ -86,7 +86,7 @@
         opacity: 30%;
     }
     100% {
-        left: 8%;
+        left: 3%;
         opacity: 100%;
     }
 }
