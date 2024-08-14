@@ -30,6 +30,9 @@ function Introducao() {
         }
       }
       document.getElementById("linha").classList.add("animacao-titulo")
+      setTimeout(() => {
+        document.getElementById("linha").classList.add("animacao-barra")
+      }, 4000)
       setTimeout(escreverNome, 800)
   }, [])
 

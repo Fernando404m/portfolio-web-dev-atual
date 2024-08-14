@@ -40,6 +40,7 @@
     position: absolute;
     border-radius: 5px;
     display: none;
+    left: 8%;
 }
 #inicio #contatos {
     width: 100%;
@@ -72,6 +73,9 @@
     display: block !important;
     animation: animacao-do-titulo 2.5s forwards ease-out;
 }
+.animacao-barra {
+    animation: animacao-barra-inf 4s infinite linear
+}
 .animacao-contatos {
     animation: animacao-dos-contatos 6s forwards ease-out;
 }
@@ -82,8 +86,23 @@
         opacity: 30%;
     }
     100% {
-        left: 3%;
+        left: 8%;
         opacity: 100%;
+    }
+}
+
+@keyframes animacao-barra-inf {
+    25% {
+        transform: translateY(-7%);
+    }
+    50% {
+        transform: translateY(0%);
+    }
+    75% {
+        transform: translateY(7%);
+    }
+    100% {
+        transform: translateY(0%);
     }
 }
 

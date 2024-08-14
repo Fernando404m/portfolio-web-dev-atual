@@ -12,7 +12,7 @@
 }
 .hab {
     background-color: transparent;
-    width: 40%;
+    width: 125px;
     padding: 5px;
     border-radius: 10px;
     border: 1px solid black;
@@ -31,16 +31,17 @@
 #display-hab {
     width: 100%;
     background-color: var(--cor-transparente);
-    padding: 12px;
+    padding: 12px 20px;
     margin-top: 20px;
     color: var(--cor-fontes-destaque);
     font-family: playfair;
+    border: 2px solid rgb(32, 35, 47);
 }
 #habilidades-container #ingles {
-    width: 92%;
+    width: 280px;
 }
 #habilidades-container #ingles img {
-    width: 40%;
+    width: 35%;
 }
 .display-hab-text {
     display: none;
