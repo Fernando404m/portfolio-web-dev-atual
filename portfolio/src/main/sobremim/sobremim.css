@@ -17,6 +17,7 @@
     opacity: 0%;
     left: 10%;
     top: 20%;
+    box-shadow: 5px 5px 5px var(--cor-primaria);
 }
 #sobremim h1 {
     font: 700 1.8rem "playfair", serif;
@@ -88,5 +89,11 @@
 @media screen  and (orientation: landscape){
     #sobremim {
         height: 220px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    #sobremim {
+        width: 40%;
     }
 }

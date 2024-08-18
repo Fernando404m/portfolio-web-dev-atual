@@ -27,3 +27,9 @@
     color: var(--cor-fontes-destaque);
     font: 700 1.8rem "playfair", serif;
 }
+.material-symbols-outlined {
+    font-size: 30px;
+    background-color: transparent;
+    color: var(--cor-fontes);
+    overflow-y: hidden;
+}

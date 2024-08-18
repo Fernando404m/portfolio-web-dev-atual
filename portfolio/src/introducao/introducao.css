@@ -176,10 +176,11 @@
         background-color: var(--cor-primaria-clara);
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
+        box-shadow: 5px 5px 5px var(--cor-primaria);
     }
     #inicio #eu {
         width: 220px;
-        height: 260px;
+        height: 220px;
         position: relative;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
@@ -205,6 +206,7 @@
         background-color: var(--cor-primaria-clara);
         padding: 20px;
         border-radius: 20px;
+        box-shadow: 5px 5px 5px var(--cor-primaria);
     }
     #react-animado {
         width: 200px;
@@ -212,5 +214,12 @@
         background: transparent url("../assets/img/react.png") no-repeat center;
         background-size: cover;
         right: 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #container-inicio {
+        border-radius: 20px;
+        left: 10%;
     }
 }

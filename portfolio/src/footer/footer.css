@@ -17,4 +17,5 @@ footer > * {
     border-radius: 12px;
     font: 100 .9rem playfair, serif;
     color: var(--cor-fontes-destaque);
+    box-shadow: 2px 2px 5px var(--cor-primaria);
 }

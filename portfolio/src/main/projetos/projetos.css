@@ -10,6 +10,7 @@
     height: 60%;
     position: relative;
     border: 2px solid rgb(109, 16, 16);
+    box-shadow: 5px 5px 5px var(--cor-primaria);
 }
 .projeto {
     background-color: azure;
@@ -67,6 +68,7 @@
     transform: translate(-50%, -50%);
     z-index: 8;
     border: 1px solid black;
+    box-shadow: 5px 5px 5px var(--cor-primaria);
 }
 #projeto-0 {
     z-index: 10;

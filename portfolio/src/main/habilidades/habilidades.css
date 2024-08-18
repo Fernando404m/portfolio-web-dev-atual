@@ -16,6 +16,7 @@
     padding: 5px;
     border-radius: 10px;
     border: 1px solid black;
+    box-shadow: 5px 5px 5px var(--cor-primaria);
 }
 .hab:hover {
     background-color: var(--cor-transparente);
@@ -36,6 +37,7 @@
     color: var(--cor-fontes-destaque);
     font-family: playfair;
     border: 2px solid rgb(32, 35, 47);
+    box-shadow: 5px 5px 5px var(--cor-primaria);
 }
 #habilidades-container #ingles {
     width: 280px;
@@ -76,5 +78,13 @@
     }
     #display-hab {
         width: 80%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    #display-hab {
+        width: 60%;
+        margin-top: 60px;
+        padding: 20px 70px;
     }
 }

@@ -6,6 +6,8 @@ function Nav() {
     
     useEffect(() => {
         container = document.querySelector(".nav-bar-btn-container")
+        container.classList.remove("nav-mostra")
+        container.classList.remove("nav-oculta")
     }, [])
 
     function mostrarNav() {
@@ -24,13 +26,22 @@ function Nav() {
             top: goTo.offsetTop,
             behavior: "smooth"
         })
-        mostrarNav()
+        if (window.innerWidth < 720) {
+            mostrarNav()
+        }
     }
+
+    window.addEventListener("resize", () => {
+        if (window.innerWidth >= 720) {
+            document.querySelector(".nav-bar-btn-container").classList.remove("nav-mostra")
+            document.querySelector(".nav-bar-btn-container").classList.remove("nav-oculta")
+        }
+    })
 
     return(
         <nav className="nav-bar">
             <h1>F.M. Dev</h1>
-            <button className="material-symbols-outlined" onClick={mostrarNav}>menu</button>
+            <button id="btn-nav" className="material-symbols-outlined" onClick={mostrarNav}>menu</button>
             <div className="nav-bar-btn-container nav-oculta">
                 <button onClick={() => {scroll("inicio")}}>Inicio</button>
                 <button onClick={() => {scroll("container-sobremim")}}>Sobre mim</button>
