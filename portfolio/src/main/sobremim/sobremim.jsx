@@ -33,20 +33,33 @@ function sobremim() {
             <div id="mais-sobremim">
                 <button id="close" className="material-symbols-outlined" onClick={mostrarMais}>close</button>
                 <h1>Linha do tempo</h1>
-                <div>
-                    <div>16 python curso em video</div>
-                    <div>17 projetos de automoçao de jogos com python</div>
-                    <div>17html e css do curso em video</div>
-                    <div>17 primeiro portfolio</div>
-                    <div>17 fiz o curso do freecodecamp</div>
-                    <div>17 aprendi js com o brocode</div>
-                    <div>17 segundo portfolio</div>
-                    <div>17 descobri como usar os serviços da hostinger e sobre os endereços</div>
-                    <div>parei para estudar outros assuntos, alem de desenvolver meu ingles</div>
-                    <div>18 retomei os estudos</div>
-                    <div>18 aprendi react com o brocode</div>
-                    <div>18 entendi mais sobre git e githup</div>
-                    <div>18 fiz esse portfolio</div>
+                <div id="timeline">
+                    <div id="linha-timeline"></div>
+                    <div><h2 className="sub-timeline">Python</h2><p className="paragrafo-timeline">ao final dos meus 16 anos eu comecei a programar com o curso de Python do canal curso em video.</p></div>
+
+                    <div><h2 className="sub-timeline">Automação de jogo</h2><p className="paragrafo-timeline">aos 17 anos comecei a criar projetos de automoçao de jogos com Python junto com a biblioteca pyautogui, PIL e numpy.</p></div>
+
+                    <div><h2 className="sub-timeline">HTML & CSS</h2><p className="paragrafo-timeline">ainda com 17 comecei a aprender HTML e CSS pelo canal curso em video que ja tinha minha confiança.</p></div>
+
+                    <div><h2 className="sub-timeline">1° Portfolio</h2><p className="paragrafo-timeline">apos aprender bastante sobre, eu fiz meu primeiro portfolio, onde usei apenas o HTML E CSS, para testar meus conhecimentos.</p></div>
+
+                    <div><h2 className="sub-timeline">freecodecamp</h2><p className="paragrafo-timeline">pouco depois eu fiz o curso do freecodecamp que me possibilitou aprender ainda mais sobre HTML e CSS.</p></div>
+
+                    <div><h2 className="sub-timeline">JavaScript</h2><p className="paragrafo-timeline">ainda com 17 decidi experimentar o JavaScript pois facilitaria o meu desenvolvimento web, então optei pelo curso de js do brocode.</p></div>
+
+                    <div><h2 className="sub-timeline">2° Portfolio</h2><p className="paragrafo-timeline">após aprender o js basico testei minhas habilidades criando um segundo portfolio.</p></div>
+
+                    <div><h2 className="sub-timeline">Hospedagem</h2><p className="paragrafo-timeline">fui atras de descobrir como funciona os endereços e serviços de hospedagem, que até então eu estiva usando o github pages.</p></div>
+
+                    <div><h2 className="sub-timeline">Pausa</h2><p className="paragrafo-timeline">fiz uma pausa da programação e parei para estudar outros assuntos, alem de desenvolver meu ingles.</p></div>
+
+                    <div><h2 className="sub-timeline">Retomada</h2><p className="paragrafo-timeline">ao completar meus 18 anos retomei os estudos de programaçao e desenvolvimento.</p></div>
+
+                    <div><h2 className="sub-timeline">React</h2><p className="paragrafo-timeline">aprendi react com o canal brocode.</p></div>
+
+                    <div><h2 className="sub-timeline">Git & GitHub</h2><p className="paragrafo-timeline">apos minha retomada dessidi entender mais sobre git e githup pra meu controle de versionamento.</p></div>
+
+                    <div><h2 className="sub-timeline">Agora</h2><p className="paragrafo-timeline">atualmente decidi fazer esse portfolio para tentar iniciar uma carreira profissional.</p></div>
                 </div>
             </div>
             <div id="sobremim">

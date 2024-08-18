@@ -38,6 +38,13 @@
     right: 10px;
     bottom: 10px;
 }
+#close {
+    color: black;
+    position: fixed;
+    right: 15vw;
+    top: 10vh;
+    z-index: 1000;
+}
 #mais-sobremim {
     display: none;
     position: fixed;
@@ -49,12 +56,41 @@
     bottom: 10vh;
     padding: 10px;
     border-radius: 10px;
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
 #mais-sobremim h1 {
-    font: 700 1.8rem "playfair", serif;
-    color: var(--cor-fontes-oposta);
-    margin: 15px 0;
+    font: 900 1.7rem "playfair", serif;
+    color: black;
+    margin: 25px 0;
+    background-color: rgb(206, 206, 206);
+    padding: 5px 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#timeline {
+    position: relative;
+}
+#linha-timeline {
+    background-color: rgb(46, 155, 155);
+    height: 100%;
+    width: 5px;
+    position: absolute;
+    transform: translateX(-8px);
+}
+.sub-timeline {
+    background-image: linear-gradient(90deg, rgb(206, 206, 206), 80%, transparent);
+    margin: 20px 0 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font: 700 1.3rem "playfair", serif;
+    box-shadow: 2px 2px 2px black;
+}
+.paragrafo-timeline {
+    background-color: rgb(191, 192, 192);
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 2px 2px 2px black;
 }
 
 .animacao-sobremim {
