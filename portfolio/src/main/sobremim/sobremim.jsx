@@ -28,6 +28,11 @@ function sobremim() {
         }
     }
 
+    function foundBob() {
+        document.getElementById("face").style.display = "block"
+        setTimeout(() => window.alert("parabens você achou o Bob"), 50)
+    }
+
     return(
         <section id="container-sobremim">
             <div id="mais-sobremim">
@@ -67,6 +72,17 @@ function sobremim() {
                 <p>Meu nome é Fernando marques, sou um dev FullStack tentando iniciar minha carreira.</p>
                 <p>No momento estou tentando me desenvolver no mundo tecnologico pois sempre tive um fascinio sobre ele.</p>
                 <button id="mais-sobremim-btn" onClick={mostrarMais}>mais</button>
+            </div>
+            <div id="container-animacao-sobremim">
+                <div id="animacao-decoracao-sobremim">
+                    <div id="barra-rotatoria" onClick={() => foundBob()}>
+                        <div id="face">
+                            <div id="eye-left"></div>
+                            <div id="eye-right"></div>
+                            <div id="mount"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
