@@ -29,8 +29,12 @@ function sobremim() {
     }
 
     function foundBob() {
-        document.getElementById("face").style.display = "block"
-        setTimeout(() => window.alert("parabens você achou o Bob"), 50)
+        if (document.getElementById("face").style.display != "block") {
+            document.getElementById("face").style.display = "block"
+            setTimeout(() => window.alert("parabens você achou o Bob"), 50)
+        } else {
+            window.alert("você ja havia encontrado o Bob")
+        }
     }
 
     return(
