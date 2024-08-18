@@ -11,8 +11,6 @@
 }
 #container-inicio {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr;
     gap: 10px;
     justify-items: center;
 }
@@ -87,6 +85,9 @@
 .animacao-contatos {
     animation: animacao-dos-contatos 6s forwards ease-out;
 }
+.animacao-react {
+    animation: animacao-react-logo 10s infinite linear;
+}
 
 @keyframes animacao-do-titulo {
     0% {
@@ -123,28 +124,32 @@
     }
 }
 
+@keyframes animacao-react-logo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 @media screen and (orientation: landscape) {
     #inicio #eu {
+        align-self: center;
         margin: unset;
         position: relative;
     }
     #container-inicio {
-        grid-template-columns: 2fr;
-        grid-template-rows: 2fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     #container-inicio-titulo {
         position: relative;
-
         width: 320px;
-        z-index: 10000;
     }
     #inicio #contatos {
-        padding: 0;
-        margin-right: 1%;
         width: 320px;
-        position: absolute;
-        top: 60%;
-        right: 0;
+        justify-self: center;
     }
     #inicio #eu {
         grid-column: 1 / 2;
@@ -157,5 +162,55 @@
     #inicio #contatos {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    #container-inicio {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 20px 20px 0 0;
+        position: absolute;
+        width: 500px;
+        height: 80%;
+        background-color: var(--cor-primaria-clara);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    #inicio #eu {
+        width: 220px;
+        height: 260px;
+        position: relative;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    #container-inicio-titulo {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    #inicio #contatos {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        background-color: gray;
+        border-radius: 10px;
+        height: 70px;
+        padding: 10px;
+        align-self: center;
+    }
+    #container-animaçao-inicio {
+        position: absolute;
+        right: 15%;
+        top: calc(50% - 50px);
+        transform: translateY(-50%);
+        background-color: var(--cor-primaria-clara);
+        padding: 20px;
+        border-radius: 20px;
+    }
+    #react-animado {
+        width: 200px;
+        height: 200px;
+        background: transparent url("../assets/img/react.png") no-repeat center;
+        background-size: cover;
+        right: 0;
     }
 }
