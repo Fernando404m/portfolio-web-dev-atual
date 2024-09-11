@@ -1,5 +1,6 @@
 import "./projetos.css"
 import Projeto from "./projeto"
+import landingPage from './capas/landing-page.png';
 
 function Projetos() {
     let idAtual = 0
@@ -7,21 +8,24 @@ function Projetos() {
     let listaProjetos = [
         {
             id: 0,
-            titulo: "ainda nao tenho um bom",
-            img: ["2", "logicamente nao tenho uma img tambem"],
-            descricao: "e sobre isso e ta tudo bem",
+            titulo: "landing-page",
+            img: [landingPage, "foto de um site landing-page"],
+            descricao: "esse é um site de uma empresa ficticia que crie com o intuito de praticar",
+            link: "https://ecotech-gadgets.web.app/",
         },
         {
             id: 1,
-            titulo: "algo 222",
-            img: ["7", "8"],
-            descricao: "parara",
+            titulo: undefined,
+            img: [undefined, undefined],
+            descricao: undefined,
+            link: undefined,
         },
         {
             id: 2,
-            titulo: "asssdada",
-            img: ["7", "8"],
-            descricao: "parara",
+            titulo: undefined,
+            img: [undefined, undefined],
+            descricao: undefined,
+            link: undefined,
         },
     ]
     let listaProjetosProcessados = []
@@ -29,7 +33,7 @@ function Projetos() {
     let numProjetos = listaProjetos.length
 
     listaProjetos.forEach(projeto => {
-        listaProjetosProcessados.push(<Projeto key={projeto.id} projetoid={projeto.id} titulo={projeto.titulo} imagem={projeto.img} paragrafo={projeto.descricao}/>)
+        listaProjetosProcessados.push(<Projeto key={projeto.id} projetoid={projeto.id} titulo={projeto.titulo} imagem={projeto.img} paragrafo={projeto.descricao} link={projeto.link}/>)
     })
 
     function trocarProjeto(proximo) {

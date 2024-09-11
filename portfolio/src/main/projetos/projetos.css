@@ -22,13 +22,13 @@
     transform: translate(-50%, -50%);
     z-index: 5;
 }
-.projeto > h1 {
+.projeto h1 {
     text-align: center;
     margin: 8px 0;
     color: black;
     text-decoration: underline;
 }
-.projeto > img {
+.projeto img {
     height: 50%;
     width: 80%;
     position: absolute;
@@ -37,10 +37,11 @@
     transform: translate(-50%, -50%);
     border: 2px solid black;
 }
-.projeto > p {
+.projeto p {
     position: absolute;
-    padding: 10px;
+    padding: 10px 20px;
     bottom: 2px;
+    color: #000;
 }
 #left-arrow {
     width: 40px;
@@ -93,5 +94,14 @@
     }
     #papelada {
         width: 30%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .projeto {
+        width: 20%;
+    }
+    #papelada {
+        width: 20%;
     }
 }
