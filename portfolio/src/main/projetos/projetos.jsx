@@ -10,7 +10,7 @@ function Projetos() {
             id: 0,
             titulo: "landing-page",
             img: [landingPage, "foto de um site landing-page"],
-            descricao: "esse é um site de uma empresa ficticia que crie com o intuito de praticar",
+            descricao: "esse é um site de uma empresa ficticia que criei com o intuito de praticar",
             link: "https://ecotech-gadgets.web.app/",
         },
         {
