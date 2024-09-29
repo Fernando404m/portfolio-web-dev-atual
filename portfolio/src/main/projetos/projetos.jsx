@@ -1,6 +1,7 @@
 import "./projetos.css"
 import Projeto from "./projeto"
-import landingPage from './capas/landing-page.png';
+import ecotech from './capas/ecotech.png'
+import saborAroma from './capas/sabor-aroma.png'
 
 function Projetos() {
     let idAtual = 0
@@ -8,17 +9,17 @@ function Projetos() {
     let listaProjetos = [
         {
             id: 0,
-            titulo: "landing-page",
-            img: [landingPage, "foto de um site landing-page"],
+            titulo: "ecotech",
+            img: [ecotech, "foto de um site landing-page"],
             descricao: "esse é um site de uma empresa ficticia que criei com o intuito de praticar",
             link: "https://ecotech-gadgets.web.app/",
         },
         {
             id: 1,
-            titulo: undefined,
-            img: [undefined, undefined],
-            descricao: undefined,
-            link: undefined,
+            titulo: "sabor-aroma",
+            img: [saborAroma, "foto de um site landing-page"],
+            descricao: "uma cafeteria ficticia criada com o proposito de treinar",
+            link: "https://sabor-aroma.web.app/",
         },
         {
             id: 2,
