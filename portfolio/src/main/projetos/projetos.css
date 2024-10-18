@@ -59,6 +59,9 @@
     transform: translateY(-50%);
     overflow-x: hidden;
 }
+#left-arrow:hover, #right-arrow:hover {
+    font-size: 2em;
+}
 #papelada {
     background-color: azure;
     width: 60%;
@@ -98,10 +101,23 @@
 }
 
 @media screen and (min-width: 720px) {
+    #container-projetos {
+        width: 50%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    #left-arrow {
+        left: 10%;
+        cursor: pointer;
+    }
+    #right-arrow {
+        right: 10%;
+        cursor: pointer;
+    }
     .projeto {
-        width: 20%;
+        width: 220px;
     }
     #papelada {
-        width: 20%;
+        width: 220px;
     }
 }

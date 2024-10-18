@@ -1,4 +1,3 @@
-import { useEffect, useRef } from "react"
 import "./sobremim.css"
 
 function sobremim() {
@@ -73,8 +72,8 @@ function sobremim() {
             </div>
             <div id="sobremim">
                 <h1>Sobre mim</h1>
-                <p>Meu nome é Fernando marques, sou um dev FullStack tentando iniciar minha carreira.</p>
-                <p>No momento estou tentando me desenvolver no mundo tecnologico pois sempre tive um fascinio sobre ele.</p>
+                <p>Meu nome é Fernando Marques, eu sou um dev FullStack tentando iniciar minha carreira.</p>
+                <p>No momento estou tentando me desenvolver no mundo tecnologico, pois sempre tive um fascinio com tecnologia e invenções que podem guiar nosso futuro.</p>
                 <button id="mais-sobremim-btn" onClick={mostrarMais}>mais</button>
             </div>
             <div id="container-animacao-sobremim">

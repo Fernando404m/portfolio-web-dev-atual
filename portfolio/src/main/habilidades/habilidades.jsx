@@ -62,22 +62,22 @@ function Habilidades() {
                     </div>
                     <div className="display-hab-text" id="css-on">
                         <h1>CSS</h1>
-                        <p>O <strong>CSS</strong> (Cascading Style Sheets) é o que define os visuais do <strong onClick={() => mostrar('html')}>HTML</strong>, em outras palavras, é o componente essencial para a criação de designs dos elementos <strong onClick={() => mostrar('html')}>HTML</strong>. <br/>Eu particularmente sempre busco manter um site organizado, responsivo e adaptável ao público.</p>
+                        <p>O <strong>CSS</strong> (Cascading Style Sheets) é o que define os visuais do <strong className='mudar' onClick={() => mostrar('html')}>HTML</strong>, em outras palavras, é o componente essencial para a criação de designs dos elementos <strong className='mudar' onClick={() => mostrar('html')}>HTML</strong>. <br/>Eu particularmente sempre busco manter um site organizado, responsivo e adaptável ao público.</p>
                     </div>
                     <div className="display-hab-text" id="js-on">
                         <h1>JavaScript</h1>
-                        <p><strong>JavaScript</strong> é uma linguagem de programação que define funções a serem executadas em um site. Juntamente com o <strong onClick={() => mostrar('css')}>CSS</strong> e <strong onClick={() => mostrar('html')}>HTML</strong>, o JavaScript é uma das três principais tecnologias da internet.</p>
+                        <p><strong>JavaScript</strong> é uma linguagem de programação que define funções a serem executadas em um site. Juntamente com o <strong className='mudar' onClick={() => mostrar('css')}>CSS</strong> e <strong className='mudar' onClick={() => mostrar('html')}>HTML</strong>, o JavaScript é uma das três principais tecnologias da internet.</p>
                     </div>
                     <div className="display-hab-text" id="react-on">
                         <h1>React</h1>
-                        <p>O React é uma biblioteca do <strong onClick={() => mostrar("js")}>JavaScript</strong>, que comumente é utilizada para facilitar a criação de sites, devido a sua capacidade de criar componetes reutilizaveis (que são blocos de codigo isolados).</p>
+                        <p>O React é uma biblioteca do <strong className='mudar' onClick={() => mostrar("js")}>JavaScript</strong>, que comumente é utilizada para facilitar a criação de sites, devido a sua capacidade de criar componetes reutilizaveis (que são blocos de codigo isolados).</p>
                     </div>
                     <div className="display-hab-text" id="ingles-on">
                         <h1>Inglês</h1>
                         <p>Eu possuo um nível de <strong>inglês medio-avançado</strong>, suficiente para manter uma conversa, mas admito não ser totalmente fluente na língua.</p>
                     </div>
                     <div id="selecione-hab">
-                        <h1>Selecione uma opção acima</h1>
+                        <h1>Selecione uma das opções</h1>
                     </div>
                 </div>
             </div>

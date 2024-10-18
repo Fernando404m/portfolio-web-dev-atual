@@ -1,10 +1,10 @@
 .nav-bar {
     background-image: linear-gradient(35deg, var(--cor-primaria), 25%, var(--cor-primaria-clara));
-    height: 40px;
+    height: 50px;
     position: sticky;
     top: 0px;
     z-index: 999;
-    border-bottom: 1px solid azure;
+    box-shadow: 0 2px 5px var(--cor-primaria);
 }
 .nav-bar > h1 {
     width: 50%;
@@ -44,9 +44,11 @@
     font-size: .9rem;
     font-weight: 600;
     box-shadow: 2px 2px 3px var(--cor-primaria);
+    cursor: pointer;
 }
 .nav-bar-btn-container button:hover {
-    background-color: var(--cor-primaria);
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: .95rem;
 }
 
 .nav-mostra {
@@ -84,7 +86,7 @@
     .nav-bar {
         display: grid;
         grid-template-columns: 30% 70%;
-        grid-template-rows: 100%;
+        grid-template-rows: 1fr;
     }
     #btn-nav {
         display: none;
@@ -96,16 +98,20 @@
     }
     .nav-bar-btn-container {
         background-color: transparent;
-        position: static;
+        position: relative;
         top: unset;
         right: unset;
         display: flex;
         flex-wrap: nowrap;
-        height: 35px;
+        height: unset;
         width: unset;
-        padding: 5px 0;
+        align-items: center;
+        padding: 0;
+
+        justify-content: space-around;
     }
     .nav-bar-btn-container button {
         border: 1px solid var(--cor-fontes-destaque);
+        width: 23%;
     }
 }

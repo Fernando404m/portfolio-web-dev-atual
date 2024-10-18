@@ -5,9 +5,9 @@
     box-shadow: 0 4px 10px rgba(240, 255, 255, 0.8);
 }
 #inicio {
-    height: calc(100vh - 40px);
+    height: calc(100vh - 50px);
     background-image: linear-gradient(300deg, var(--cor-primaria-clara),  var(--cor-primaria));
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 #container-inicio {
     display: grid;
@@ -21,7 +21,8 @@
     margin: auto;
     width: 200px;
     height: 200px;
-    border-radius: 30%;
+    border-radius: 50%;
+    border: 1px solid var(--cor-fontes-destaque);
 }
 #container-inicio-titulo {
     height: 80px;
@@ -54,25 +55,29 @@
     display: flex;
     justify-content: space-around;
     opacity: 0%;
+    box-shadow: 2px 2px 5px var(--cor-primaria);
 }
-.contatos-icons{
+.contatos-icons {
     width: 48px;
     height: 48px;
-    border-radius: 10px;
-    background-color: azure;
+    border-radius: 8px;
     border: 3px solid rgb(34, 34, 34);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.contatos-icons:hover {
+    background-size: 105% !important;
 }
 #github-icon {
     background: white url("../assets/img/github.png") no-repeat center;
-    background-size: cover;
+    background-size: 100%;
 }
 #linkedin-icon {
     background: white url("../assets/img/linkedin.png") no-repeat center;
-    background-size: cover;
+    background-size: 100%;
 }
 #instagram-icon {
     background: white url("../assets/img/instagram.png") no-repeat center;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .animacao-titulo {
@@ -168,8 +173,8 @@
 @media screen and (min-width: 720px) {
     #container-inicio {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        padding: 20px 20px 0 0;
+        grid-template-rows: 45% 25% 25%;
+        padding-top: 20px;
         position: absolute;
         width: 500px;
         height: 80%;

@@ -2,6 +2,7 @@ import "./projetos.css"
 import Projeto from "./projeto"
 import ecotech from './capas/ecotech.png'
 import saborAroma from './capas/sabor-aroma.png'
+import numberHub from './capas/number-hub.png'
 
 function Projetos() {
     let idAtual = 0
@@ -23,10 +24,10 @@ function Projetos() {
         },
         {
             id: 2,
-            titulo: undefined,
-            img: [undefined, undefined],
-            descricao: undefined,
-            link: undefined,
+            titulo: "number-hub",
+            img: [numberHub, "foto de um site que calcula formulas"],
+            descricao: "um site para calculos matematicos criado com o intuito de introduzir formulas.",
+            link: "https://number-hub.web.app/",
         },
     ]
     let listaProjetosProcessados = []
