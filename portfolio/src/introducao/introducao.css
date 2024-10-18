@@ -178,6 +178,7 @@
         position: absolute;
         width: 500px;
         height: 80%;
+        min-height: 460px;
         background-color: var(--cor-primaria-clara);
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
@@ -226,5 +227,10 @@
     #container-inicio {
         border-radius: 20px;
         left: 10%;
+    }
+}
+@media screen and (max-width: 900px) {
+    #container-animaçao-inicio {
+        right: 25px;
     }
 }

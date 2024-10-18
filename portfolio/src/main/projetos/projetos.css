@@ -14,7 +14,7 @@
 }
 .projeto {
     background-color: azure;
-    width: 60%;
+    width: 220px;
     height: 80%;
     position: absolute;
     left: 50%;
@@ -64,7 +64,7 @@
 }
 #papelada {
     background-color: azure;
-    width: 60%;
+    width: 220px;
     height: 80%;
     position: absolute;
     left: 50%;
@@ -91,14 +91,6 @@
     }
 }
 
-@media screen and (orientation: landscape) {
-    .projeto {
-        width: 30%;
-    }
-    #papelada {
-        width: 30%;
-    }
-}
 
 @media screen and (min-width: 720px) {
     #container-projetos {
@@ -113,11 +105,5 @@
     #right-arrow {
         right: 10%;
         cursor: pointer;
-    }
-    .projeto {
-        width: 220px;
-    }
-    #papelada {
-        width: 220px;
     }
 }

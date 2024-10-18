@@ -17,8 +17,8 @@
 }
 #btn-nav {
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 10px;
+    top: 10px;
 }
 .nav-bar-btn-container {
     background-color: var(--cor-transparente);
