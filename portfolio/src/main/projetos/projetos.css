@@ -24,7 +24,7 @@
 }
 .projeto h1 {
     text-align: center;
-    margin: 8px 0;
+    margin: 15px 0;
     color: black;
     text-decoration: underline;
 }
@@ -34,7 +34,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     border: 2px solid black;
 }
 .projeto p {
