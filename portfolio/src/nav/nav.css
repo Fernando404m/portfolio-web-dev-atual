@@ -19,6 +19,7 @@
     position: absolute;
     right: 10px;
     top: 10px;
+    cursor: pointer;
 }
 .nav-bar-btn-container {
     background-color: var(--cor-transparente);

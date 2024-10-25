@@ -55,7 +55,6 @@
     display: flex;
     justify-content: space-around;
     opacity: 0%;
-    box-shadow: 2px 2px 5px var(--cor-primaria);
 }
 .contatos-icons {
     width: 48px;
@@ -203,6 +202,7 @@
         height: 70px;
         padding: 10px;
         align-self: center;
+        box-shadow: 2px 2px 5px var(--cor-primaria);
     }
     #container-animaçao-inicio {
         position: absolute;
