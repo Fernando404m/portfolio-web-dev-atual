@@ -61,7 +61,7 @@ function Introducao() {
         <div id="contatos">
           <a id="github-icon" className="contatos-icons" href="https://github.com/Fernando404m" target="_blank"/>
           <a id="linkedin-icon" className="contatos-icons" href="https://www.linkedin.com/in/fernando-marques-5438542a7/" target="_blank"/>
-          <a id="instagram-icon" className="contatos-icons" href="" target="_blank"/>
+          <a id="instagram-icon" className="contatos-icons" href="https://www.instagram.com/fernando_404m/?igsh=emdqenR2enBmOHhw" target="_blank"/>
         </div>
       </div>
       <div id="container-animaçao-inicio">
