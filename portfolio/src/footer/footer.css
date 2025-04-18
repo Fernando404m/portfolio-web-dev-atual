@@ -19,6 +19,9 @@ footer > * {
     color: var(--cor-fontes-destaque);
     box-shadow: 2px 2px 5px var(--cor-primaria);
 }
+footer > *:hover {
+    width: 85%;
+}
 
 @media screen and (min-width: 720px) {
     footer > * {

@@ -36,6 +36,7 @@
     top: 50%;
     transform: translate(-50%, -60%);
     border: 2px solid black;
+    border-radius: 8px;
 }
 .projeto p {
     position: absolute;
@@ -50,6 +51,7 @@
     left: 10px;
     transform: translateY(-50%);
     overflow-x: hidden;
+    cursor: pointer;
 }
 #right-arrow {
     width: 40px;
@@ -58,6 +60,7 @@
     right: 6px;
     transform: translateY(-50%);
     overflow-x: hidden;
+    cursor: pointer;
 }
 #left-arrow:hover, #right-arrow:hover {
     font-size: 2em;

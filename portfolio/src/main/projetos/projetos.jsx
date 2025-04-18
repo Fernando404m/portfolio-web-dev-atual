@@ -3,6 +3,7 @@ import Projeto from "./projeto"
 import ecotech from './capas/ecotech.png'
 import saborAroma from './capas/sabor-aroma.png'
 import numberHub from './capas/number-hub.png'
+import musicPlayer from './capas/music-player.png'
 
 function Projetos() {
     let idAtual = 0
@@ -29,6 +30,13 @@ function Projetos() {
             descricao: "um site para calculos matematicos criado com o intuito de introduzir formulas.",
             link: "https://number-hub.web.app/",
         },
+        {
+            id:3,
+            titulo: "music-player",
+            img: [musicPlayer, "foto do site de player de musica"],
+            descricao: "um player para musicas (algumas musicas estão disponiveis como templates)",
+            link: "https://music-player-0.web.app/"
+        }
     ]
     let listaProjetosProcessados = []
 
